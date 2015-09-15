@@ -1,0 +1,17 @@
+def fizzbuzz(number)
+    fizzBy3 = (number % 3 == 0)
+    buzzBy5 = (number % 5 == 0)
+
+    case
+        when fizzBy3 && buzzBy5
+            puts "FizzBuzz"
+        when fizzBy3
+            puts "Fizz"
+        when buzzBy5
+            puts "Buzz"
+        else 
+            puts number
+    end
+end
+
+(1..100).each {|n| fizzbuzz n}
