@@ -1,0 +1,72 @@
+/* CSS Document */
+body {
+	background-color: #E6DCB9;
+	margin: 20px 200px 50px 200px;
+}
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h2 {
+    font-family:arial;
+}
+h3 {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+ul {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+ol {
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 2em;
+}
+li.dbl {
+    background: yellow;
+    color: black;
+  }
+#text {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #000000;
+}
+.highlighted {
+    -webkit-box-shadow: 0 0 8px #33FF00;
+    -moz-box-shadow: 0 0 8px #33FF00;
+    box-shadow: 0 0 8px #33FF00;
+    cursor:pointer;
+}
+img {
+	float:right;
+	margin: 10px 10px 10px 10px;
+	border-radius: 20px;
+	height: 250px;
+	width: 250px;
+}
+.grow img {
+  height: 250px;
+  width: 250px;
+          transition: all 2s ease;
+}
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+#rotator img {
+	transition: all 1s ease-in-out; 
+}
+
+#rotator img:hover { 
+	transform: rotate(360deg); 
+}
+
+.shadow {
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+div:hover { 
+	text-decoration: underline; 	
+}
+input, label {
+    line-height: 1.5em;
+	font-family: Tahoma, Geneva, sans-serif;
+  }
